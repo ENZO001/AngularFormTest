@@ -1,6 +1,7 @@
 <div class="container">
-  <h2><a [routerLink]="['/hero']" routerLinkActive="router-link-active" >Hero</a></h2>
-  <!-- <h2> | </h2> -->
-  <!-- <h2><a [routerLink]="['/hero']" routerLinkActive="router-link-active" >Hero2</a></h2> -->
+  <h2>
+    <a [routerLink]="['/hero']" routerLinkActive="router-link-active" >Hero</a> |
+    <a [routerLink]="['/member']" routerLinkActive="router-link-active" >Member</a>
+  </h2>
   <router-outlet></router-outlet>
 </div>
